@@ -1,0 +1,24 @@
+body {
+    background-color: #EAFDFC;  
+    overflow: auto;
+ }
+hr  {
+    border-color: #0E8388;
+    border-style: none;
+    border-top-style: dotted;
+    border-width: 5px;      
+    width: 300px;
+    margin: 0;
+    margin-left: 0;      
+}
+
+h1 {
+    color: #0E8388;
+}
+h3 {
+    color:#0E8388;
+}
+th {
+    border-width: 2px;
+  }
+ 

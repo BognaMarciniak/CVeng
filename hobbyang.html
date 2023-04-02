@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Hobby</title>
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        img{
+            height: 100px;
+        }
+        body{
+            text-align: center;
+        }
+        table{
+            margin: 0 auto;
+            text-align: center;
+        }
+        img:hover {
+            background-color: #82AAE3;
+        }
+        span[data-descr]:hover::after,
+        span[data-descr]:focus::after {
+        content: attr(data-descr);
+        position: absolute;
+        left: 50px;
+        top: 100px;
+        max-width: 30%;
+        border: 1px #E0144C solid;
+        border-radius: 10px;
+        background-color: #EAFDFC;
+        padding: 12px;
+        color: #E0144C;
+        font-size: 20px;
+        }
+    </style>
+</head>
+<body>
+    <h3>My interests</h3>
+    <p>Go ahead and hover over the image 😉</p>
+    <table>
+        <tr>
+            <td> <span tabindex="0" data-descr="My greatest passion is basketball, which I have been playing for many years. Currently, I play for the Wrocław University of Science and Technology team."><img src="zdjecia/basketball.webp" alt="Koszykówka"></span></td>
+            <td> <span tabindex="0" data-descr="I love crime stories! Both books and True Crime podcasts. I have a large collection of titles from both Polish and foreign authors."><img src="zdjecia/book.webp" alt="Książki"></span></td>
+            <td> <span tabindex="0" data-descr="Music accompanies me all the time, whether it's on my headphones or during amateur karaoke. From Bring Me The Horizon and Bon Jovi, through Polish pop, to songs from Disney movies."><img src="zdjecia/nuta.png" alt="Muzyka"></span></td>
+            <td> <span tabindex="0" data-descr="Not only am I an employee of an Escape Room, but also a passionate fan of this form of entertainment. I have about 50 solved rooms on my account, in various cities, and this number is constantly growing."><img src="zdjecia/doors.png" alt="Escape"></span></td>
+        </tr>
+        <tr>
+            <td>Basketball</td>
+            <td>Crime Stories</td>
+            <td>Music</td>
+            <td>Escape room</td>
+        </tr>
+    </table>
+        
+</body>
+</html>
