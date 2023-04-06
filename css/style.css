@@ -1,6 +1,8 @@
 body {
-    background-color: #EAFDFC;  
+    background-color: #FFE2E2;  
     overflow: auto;
+    margin: 0;
+    font-family: 'Roboto Slab', serif;
  }
 hr  {
     border-color: #0E8388;
@@ -12,8 +14,34 @@ hr  {
     margin-left: 0;      
 }
 
-h1 {
-    color: #0E8388;
+div.top{
+    background-color: #EAFDFC;
+    text-align: center;
+    position: relative;
+    padding-top: 100px;
+    height: 560px;
+}
+div.bottom{
+    padding-left: 10px;
+}
+h1.top{
+    margin-top: 0;
+    font-family: 'Delicious Handrawn', cursive;
+    font-size: 60px;
+}
+p.top{
+    font-family: 'Delicious Handrawn', cursive;
+    font-size: 30px;
+}
+.top-cloud{
+    position: absolute;
+    right: 300px;
+    top:0;
+}
+.bottom-cloud{
+    position: absolute;
+    left: 350px;
+    bottom: 200px;
 }
 h3 {
     color:#0E8388;
